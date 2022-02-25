@@ -5,10 +5,10 @@ import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full flex flex-col">
      
      <Landing/>
-     {/* <Footer/> */}
+     <Footer/>
     </div>
   )
 }
