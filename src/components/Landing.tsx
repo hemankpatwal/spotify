@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import React from "react"
 
 const Landing = () => (
@@ -8,17 +9,22 @@ const Landing = () => (
                     <img src="/images/icon1.png"/>
                 </div>
                 <div className="space-y-2">
-                    <div className="flex mt-[20%] justify-start space-x-5">
-                        <div>
+                    <motion.div 
+                    whileHover={{ scale: 1.2 }}
+                    className="flex mt-[20%] justify-start space-x-5">
+                        <motion.div
+                         onHoverStart={() => console.log('Hover starts')}>
                             <img src="/images/icon3.png" />
-                        </div>
-                        <div className="mt-[2%]">
+                        </motion.div>
+                        <motion.div
+                        
+                         className="mt-[2%]">
                             <img src="/images/icon2.png"/>
-                        </div>
+                        </motion.div>
                         <div className=" text-white text-xl">
                             Home
                         </div>
-                    </div>
+                    </motion.div>
                     <div className="flex mt-[20%] justify-start space-x-5 ml-[8%]">
                         <div className="mt-[2%]">
                             <img src="/images/icon4.png"/>
@@ -98,8 +104,12 @@ const Landing = () => (
                 </div>
 
                 <div>
-                    <div className="flex space-x-[4%] h-[20rem]  ">
-                        <div className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-2xl ">
+                    <div className="flex space-x-[4%] h-[22rem]  ">
+                        <motion.div 
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                        className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-2xl ">
                             <div>
                                 <img src="/images/cover1.png" />
                             </div>
@@ -109,10 +119,13 @@ const Landing = () => (
                             <div className="text-zinc-500 text-sm text-center">
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
+                        </motion.div>
 
-                        </div>
-
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                         className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover2.png" />
                             </div>
@@ -123,9 +136,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}} 
+                        className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover3.png" />
                             </div>
@@ -136,9 +153,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                         className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover4.png" />
                             </div>
@@ -149,9 +170,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div 
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                        className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover5.png" />
                             </div>
@@ -162,18 +187,22 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
                         
                     </div>
+                
                 </div>
-
                 <div className="mt-[3%] ml-[5%] font-extrabold text-5xl text-white">
                     Favorite Artist
                 </div>
 
                 <div>
-                    <div className="flex space-x-[4%] h-[20rem]">
-                        <div className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                    <div className="flex space-x-[4%] h-[22rem]">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                         className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover1.png" />
                             </div>
@@ -184,9 +213,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div 
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                        className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover2.png" />
                             </div>
@@ -197,9 +230,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                         className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover3.png" />
                             </div>
@@ -210,9 +247,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                         className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover4.png" />
                             </div>
@@ -223,9 +264,13 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}
+                         className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover5.png" />
                             </div>
@@ -236,7 +281,7 @@ const Landing = () => (
                                 Honey Singh, Sidhu Moosewala, Wazir Patar etc.
                             </div>
 
-                        </div>
+                        </motion.div>
                         
                     </div>
                 </div>
