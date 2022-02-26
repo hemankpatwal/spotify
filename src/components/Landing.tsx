@@ -98,8 +98,8 @@ const Landing = () => (
                 </div>
 
                 <div>
-                    <div className="flex space-x-[4%]">
-                        <div className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-3xl border-y-[1rem]">
+                    <div className="flex space-x-[4%] h-[20rem]  ">
+                        <div className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-2xl ">
                             <div>
                                 <img src="/images/cover1.png" />
                             </div>
@@ -112,7 +112,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover2.png" />
                             </div>
@@ -125,7 +125,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover3.png" />
                             </div>
@@ -138,7 +138,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover4.png" />
                             </div>
@@ -151,7 +151,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover5.png" />
                             </div>
@@ -172,8 +172,8 @@ const Landing = () => (
                 </div>
 
                 <div>
-                    <div className="flex space-x-[4%]">
-                        <div className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                    <div className="flex space-x-[4%] h-[20rem]">
+                        <div className="flex flex-col bg-neutral-800 w-[15%]  justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover1.png" />
                             </div>
@@ -186,7 +186,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover2.png" />
                             </div>
@@ -199,7 +199,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover3.png" />
                             </div>
@@ -212,7 +212,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover4.png" />
                             </div>
@@ -225,7 +225,7 @@ const Landing = () => (
 
                         </div>
 
-                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-3xl">
+                        <div className="flex flex-col bg-neutral-800 w-[15%] justify-center items-center ml-[5%] mt-[2%] rounded-2xl">
                             <div>
                                 <img src="/images/cover5.png" />
                             </div>
