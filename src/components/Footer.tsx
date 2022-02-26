@@ -1,13 +1,16 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
 const Footer = () => (
     <div className="w-full h-full bg-neutral-800 flex z-10 sticky bottom-0">
         <div className='mt-[1%] flex ml-[1%] mb-5  w-full'>  
             <div className="flex flex-col w-[30%]"> 
                 <div className="flex space-x-8">
-                    <div>
+                    <motion.div 
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 2 }}>
                         <img src="/images/cover6.png" />        
-                    </div>
+                    </motion.div>
                     <div className="flex flex-col text-white ">
                         <div className='text-md font-semibold'>
                             One Bottle Down
