@@ -42,13 +42,13 @@ const Footer = () => (
                     onHoverStart={e => {}}
                     onHoverEnd={e => {}}
                      className="mt-[2%]">
-                        <img src='/images/skip.png' />
+                            <img src='/images/Skip.png' />
                     </motion.div>
                     <motion.div
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={e => {}}
                     onHoverEnd={e => {}}>
-                        <img src='/images/play.png' />
+                        <img src='/images/Play.png' />
                     </motion.div>
                     <motion.div
                     whileHover={{ scale: 1.2 }}
@@ -59,7 +59,7 @@ const Footer = () => (
                     </motion.div>
                 </div>
                 <div>
-                    <img src='/images/player.png' />
+                    <img src='/images/Player.png' />
                 </div>
             </div>    
         </div>
