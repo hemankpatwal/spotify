@@ -9,11 +9,12 @@ const Landing = () => (
                     <img src="/images/icon1.png"/>
                 </div>
                 <div className="space-y-2">
-                    <motion.div 
-                    whileHover={{ scale: 1.2 }}
+                    <button 
+                    
                     className="flex mt-[20%] justify-start space-x-5">
                         <motion.div
-                         onHoverStart={() => console.log('Hover starts')}>
+                         
+                          >
                             <img src="/images/icon3.png" />
                         </motion.div>
                         <motion.div
@@ -24,7 +25,7 @@ const Landing = () => (
                         <div className=" text-white text-xl">
                             Home
                         </div>
-                    </motion.div>
+                    </button>
                     <div className="flex mt-[20%] justify-start space-x-5 ml-[8%]">
                         <div className="mt-[2%]">
                             <img src="/images/icon4.png"/>
@@ -92,12 +93,27 @@ const Landing = () => (
             <div className="bg-neutral-900 flex flex-col w-full">
 
                 <div className="flex mt-[2%] w-full">
-                    <div className="ml-[5%]">
-                        <img src="/images/icon8.png" />
-                    </div>
-                    <div className="ml-[75%]">
+                    <motion.div
+                     whileHover={{ scale: 1.2 }}
+                     onHoverStart={e => {}}
+                     onHoverEnd={e => {}} 
+                    className="ml-[5%]">
+                        <img src="/images/icon11.png" />
+                    </motion.div>
+                    <motion.div
+                     whileHover={{ scale: 1.2 }}
+                     onHoverStart={e => {}}
+                     onHoverEnd={e => {}} 
+                    className="ml-[2%]">
+                        <img src="/images/icon10.png" />
+                    </motion.div>
+                    <motion.div 
+                     whileHover={{ scale: 1.2 }}
+                     onHoverStart={e => {}}
+                     onHoverEnd={e => {}}
+                    className="ml-[72%]">
                         <img src="/images/icon9.png" />
-                    </div>
+                    </motion.div>
                 </div>
                 <div className="mt-[3%] ml-[5%] font-extrabold text-5xl text-white">
                     Good Evening

@@ -20,28 +20,45 @@ const Footer = () => (
                         </div>
                     </div>
                     <div className='flex mt-[3%] space-x-4'>
-                        <div>
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
                             <img src='/images/heart.png' />
-                        </div>
-                        <div>
+                        </motion.div>
+                        <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
                             <img src='/images/card.png' />
-                        </div>
+                        </motion.div>
                     </div>
                 </div>      
             </div>     
             <div className='flex flex-col space-y-3 '>
                 <div className="flex space-x-9 justify-center">
-                    <div className="mt-[2%]">
+                    <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    onHoverStart={e => {}}
+                    onHoverEnd={e => {}}
+                     className="mt-[2%]">
                         <img src='/images/skip.png' />
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    onHoverStart={e => {}}
+                    onHoverEnd={e => {}}>
                         <img src='/images/play.png' />
-                    </div>
-                    <div className="mt-[2%]">
+                    </motion.div>
+                    <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    onHoverStart={e => {}}
+                    onHoverEnd={e => {}}
+                     className="mt-[2%]">
                         <img src='/images/right.png' />
-                    </div>
+                    </motion.div>
                 </div>
-                <div className="">
+                <div>
                     <img src='/images/player.png' />
                 </div>
             </div>    
