@@ -16,7 +16,7 @@ const Footer = () => (
                             One Bottle Down
                         </div>
                         <div className=' text-xs font-light'>
-                            Honey Singh
+                            YO yo Honey Singh
                         </div>
                     </div>
                     <div className='flex mt-[3%] space-x-4'>
