@@ -54,7 +54,7 @@ const Landing = () => (
                             <img src="/images/icon7.png" />
                         </div>
                         <div className="font-semibold text-lg">
-                            Create new playlist
+                            Create new playlists
                         </div>
                     </div>
                     <div className="font-medium text-base">
